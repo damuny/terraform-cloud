@@ -1,9 +1,19 @@
 # ******************************************************************************************************
-#  PROVIDER Terraform file  /                     v1.0         /                   by Daniel M.
+#  PROVIDER Terraform file  /                     v1.1         /                   by Daniel M.
 # ******************************************************************************************************
 
 # ------------------------------------------------------------------------  declare provider(s) 
 terraform {
+  # https://endava.udemy.com/course/terraform-on-azure-services/learn/lecture/32869264#overview 
+ /* 
+  cloud {
+    organization = "ENDAVA-INFRA"
+
+    workspaces {
+      name = "infra-test"
+    }
+  }
+ */ 
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
