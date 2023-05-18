@@ -8,7 +8,6 @@ terraform {
    
   cloud {
     organization = "ENDAVA-INFRA"
-
     workspaces {
       name = "infra-test"
     }
