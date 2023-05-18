@@ -5,7 +5,7 @@
 # ------------------------------------------------------------------------  declare provider(s) 
 terraform {
   # https://endava.udemy.com/course/terraform-on-azure-services/learn/lecture/32869264#overview 
- /* 
+   
   cloud {
     organization = "ENDAVA-INFRA"
 
@@ -13,7 +13,7 @@ terraform {
       name = "infra-test"
     }
   }
- */ 
+ 
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
